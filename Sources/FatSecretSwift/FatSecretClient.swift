@@ -25,11 +25,11 @@ private enum HTTPError: LocalizedError {
     }
 }
 
-/** HTTP Method: POST
+/* HTTP Method: POST
  - URL: http://platform.fatsecret.com/rest/server.api
- */
+*/
 
-/** List of all required request parameters
+/* List of all required request parameters
 
  - Parameter format: The return format type(JSON)
  - Parameter oauth_consumer_key: Users personal consumer key
