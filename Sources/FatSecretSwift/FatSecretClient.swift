@@ -73,7 +73,7 @@ open class FatSecretClient {
      - Description: Get a food item by id
      */
     public func getFood(id: String, completion: @escaping (_ foods: Food) -> ()) {
-        FatSecretParams.fatSecret = ["format":"json", "method":"food.get", "food_id":id] as Dictionary
+        FatSecretParams.fatSecret = ["format":"json", "method":"food.get.v2", "food_id":id] as Dictionary
 
         let components = generateSignature()
         fatSecretRequest(with: components) { data in
