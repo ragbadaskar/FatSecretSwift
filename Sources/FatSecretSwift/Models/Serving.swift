@@ -50,6 +50,6 @@ public struct Serving: Decodable {
         self.transFat = transFat
         self.vitaminA = vitaminA
         self.vitaminC = vitaminC
-        self.servingDescription = servingDescription
+        self.servingDescription = servingDescription // Serving Description
     }
 }
